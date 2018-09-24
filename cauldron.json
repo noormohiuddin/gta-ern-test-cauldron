@@ -1,1 +1,11 @@
-{}
+{
+  "config": {
+    "manifest": {
+      "override": {
+         "url": "https://noormohiuddin@github.com/noormohiuddin/gta-ern-test-cauldron.git",
+         "type": "partial"
+       }
+     }
+  },
+  "nativeApps": []
+}
