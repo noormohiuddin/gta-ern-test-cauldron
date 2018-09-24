@@ -2,10 +2,11 @@
   "config": {
     "manifest": {
       "override": {
-         "url": "https://noormohiuddin@github.com/noormohiuddin/gta-ern-test-cauldron.git",
-         "type": "partial"
-       }
-     }
+        "url": "https://noormohiuddin@github.com/noormohiuddin/gta-ern-test-cauldron.git",
+        "type": "partial"
+      }
+    }
   },
-  "nativeApps": []
+  "nativeApps": [],
+  "schemaVersion": "1.0.0"
 }
