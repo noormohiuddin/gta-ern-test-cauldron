@@ -1,0 +1,44 @@
+{
+  "config": {
+    "manifest": {
+      "override": {
+        "url": "https://noormohiuddin@github.com/noormohiuddin/gta-ern-test-cauldron.git",
+        "type": "partial"
+      }
+    }
+  },
+  "nativeApps": [
+    {
+      "name": "GtaErnTest",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [
+                  "gta-ern-miniapp-test@0.0.1"
+                ],
+                "nativeDeps": [
+                  "react-native@0.56.0"
+                ],
+                "ernVersion": "0.24.2"
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {
+                "container": "89b89fa4fb6b48a17294b6545106e95afe39c94d"
+              },
+              "containerVersion": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": "1.0.0"
+}
