@@ -20,12 +20,20 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "gta-ern-miniapp-test@0.0.1"
+                ],
+                "nativeDeps": [
+                  "react-native@0.56.0"
+                ],
+                "ernVersion": "0.24.2"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "89b89fa4fb6b48a17294b6545106e95afe39c94d"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
